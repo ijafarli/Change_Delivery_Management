@@ -11,7 +11,7 @@ third change
 4. Search for "CMO PHASE 2.0" to find the changes in the code
 */
 data m3;
-	set m3;
+	set m2;
 
 	/*set table2.final_output_new_full;*/
 	cRes_DE_Var422 = input(Res_DE_Var422,32.);
@@ -39,7 +39,7 @@ data m3;
 	cRes_DE_Var537 = input(Res_DE_Var537,32.);
 
 	/*********************EFS Banking Strategy Grid 2; Adjusted CV Risk Groups App1; CMO Phase 2.0***********************************************/
-	Income70=.70*cRes_DE_Var422;
+	Income75=.70*cRes_DE_Var422;
 	Income65=.65*cRes_DE_Var422;
 	Income60=.60*cRes_DE_Var422;
 	Income55=.55*cRes_DE_Var422;
